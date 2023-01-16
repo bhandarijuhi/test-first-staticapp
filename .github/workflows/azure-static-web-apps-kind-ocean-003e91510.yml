@@ -3,11 +3,12 @@ name: Azure Static Web Apps CI/CD
 on:
   push:
     branches:
+      - main
       - users/juhi/test-auth
   pull_request:
     types: [opened, synchronize, reopened, closed]
     branches:
-      - users/juhi/test-auth
+      - main
 
 jobs:
   build_and_deploy_job:

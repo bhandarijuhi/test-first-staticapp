@@ -1,5 +1,0 @@
-{
-    "navigationFallback": {
-        "rewrite": "/react-app/index.html"
-    }
-}
