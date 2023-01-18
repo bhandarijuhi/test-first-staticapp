@@ -17,6 +17,10 @@
             "rewrite": "/.auth/login/aad"
         },
         {
+            "route": "/about",
+            "allowedRoles": ["superUser"]
+        },
+        {
             "route": "/*",
             "allowedRoles": ["authenticated"]
         }
